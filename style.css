@@ -1,0 +1,264 @@
+/* RESET CSS START*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, 
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs  */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* RESET CSS END */
+
+/* PRICING CSS START */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container .heading {
+    margin-bottom: 50px;
+}
+
+.container .heading h1 {
+    color: #8E75BD;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container .heading p {
+    color: #8E75BD;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container .subscriptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .subscriptions .subscription__one {
+    width: 400px;
+    border-radius: 5px;
+    border: 3px solid #E6E9F0;
+    margin-right: 30px;
+}
+
+.container .subscriptions .subscription__one h2 {
+    color: white;
+    background-color: #8E75BD;
+    padding: 20px 50px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container .subscriptions .subscription__one p {
+    color: #8C8C8C;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container .subscriptions .subscription__one .plan__type {
+    color: #8C8C8C;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container .subscriptions .subscription__one h1 {
+    color: #44C5C7;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container .subscriptions .subscription__one .subscription__features {
+    list-style-type: none;
+}
+
+.container .subscriptions .subscription__one .subscription__features li {
+    color: #B7BFC5;
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #B7BFC5;
+}
+
+.container .subscriptions .subscription__one button {
+    display: inline-block;
+    background-color: white;
+    color: #8E75BD;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid #8E75BD;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container .subscriptions .subscription__two {
+    width: 400px;
+    border-radius: 5px;
+    border: 3px solid #E1D9EF;
+}
+
+.container .subscriptions .subscription__two h2 {
+    color: white;
+    background-color: #8E75BD;
+    padding: 20px 50px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container .subscriptions .subscription__two p {
+    color: #8C8C8C;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container .subscriptions .subscription__two .plan__type {
+    color: #8C8C8C;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container .subscriptions .subscription__two .plan__price {
+    display: flex;
+    text-align: center;
+}
+
+.container .subscriptions .subscription__two .plan__price h1 {
+    color: #44C5C7;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 160px;
+}
+
+.container .subscriptions .subscription__two .plan__price p {
+    color: #8c8c8c;
+    font-size: 18px;
+    align-content: center;
+    margin-left: 10px;
+    margin-bottom: 22px;
+}
+
+.container .subscriptions .subscription__two .subscription__features {
+    list-style-type: none;
+}
+
+.container .subscriptions .subscription__two .subscription__features li {
+    color: #B7BFC5;
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-top: 2px solid #B7BFC5;
+}
+
+.container .subscriptions .subscription__two button {
+    display: inline-block;
+    background-color: #8E75BD;
+    color: #fff;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid #8E75BD;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+/* PRICING CSS END */
